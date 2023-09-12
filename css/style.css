@@ -486,6 +486,30 @@ font-weight: bold;
 
 
 h3.textocubo{transform: translate(1%,-120%)}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  h3.textocubo{transform: translate(18%,-77%);}
+}
+
+@media screen and (max-width: 769px) {
+  h3.textocubo {
+    transform: translate(14%,-62%);
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 697px) {
+  h3.textocubo {
+    transform: translate(1.5%,-57%);
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  h3.textocubo {
+    transform: translate(-8.5%,-250%);
+    font-size: 25px;
+  }
+}
 
 
 @keyframes moveimgcubo {
@@ -493,13 +517,13 @@ h3.textocubo{transform: translate(1%,-120%)}
   50%{transform: translate(-8%,0%);
 }
 }
-
+/* 
 .cubo1 {transform: translate(15%,2%); width:70%; z-index: -99999}
 .cubo1 img {max-width:95%;}
 .cubo2 {}
 .cubo3 {transform: translate(-10%,2%); max-width:70%; z-index: -99999}
 .cubo3 img {max-width:95%;}
-.cubofoto {opacity:0.4; background-color:red;}
+.cubofoto {opacity:0.4; background-color:red;} */
 
 
 
@@ -858,12 +882,12 @@ INICIO (MAX-WIDTH: 600PX)
  /** CUBOS **/
  
   #cubos {transform: translate(2%,0); width: 120%}
-.cubo1 {transform: translate(20%,2%); width:70%; z-index: -99999}
+/* .cubo1 {transform: translate(20%,2%); width:70%; z-index: -99999}
 .cubo1 img {max-width:95%;}
 .cubo2 {transform: translate(20%,2%); width:70%; z-index: -99999}
 .cubo2 img {max-width:95%;}
 .cubo3 {transform: translate(20%,2%); max-width:70%; z-index: -99999}
-.cubo3 img {max-width:95%;}
+.cubo3 img {max-width:95%;} */
 .textocubo {padding-left:40em;font-size: 20em; font-size: 10vw;}
 
 
